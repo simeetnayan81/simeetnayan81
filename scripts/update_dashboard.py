@@ -94,13 +94,13 @@ def format_repo_line(repo: dict, html: bool = False) -> str:
     lang = repo.get("language") or "multi"
     stars = repo.get("stargazers_count") or 0
     pushed = short_date(repo.get("pushed_at"))
-    star_bit = f" · {stars}★" if stars else ""
+    star_bit = f" | {stars}★" if stars else ""
     if html:
         return (
-            f'        <li><a href="{url}"><b>{name}</b></a> — {desc} '
-            f"<i>({lang}{star_bit} · {pushed})</i></li>"
+            f'        <li><a href="{url}"><b>{name}</b></a> - {desc} '
+            f"<i>({lang}{star_bit} | {pushed})</i></li>"
         )
-    return f"- **[{name}]({url})** — {desc} · _{lang}{star_bit} · updated {pushed}_"
+    return f"- **[{name}]({url})** - {desc} | _{lang}{star_bit} | updated {pushed}_"
 
 
 def event_line(event: dict) -> str | None:
@@ -117,7 +117,7 @@ def event_line(event: dict) -> str | None:
         if not commits:
             return None
         noun = "commit" if commits == 1 else "commits"
-        return f"- Pushed {commits} {noun} to [{repo}]({repo_url}) · {when}"
+        return f"- Pushed {commits} {noun} to [{repo}]({repo_url}) | {when}"
     if kind == "PullRequestEvent":
         action = payload.get("action")
         pr = payload.get("pull_request") or {}
@@ -125,29 +125,29 @@ def event_line(event: dict) -> str | None:
         if not title:
             return None
         url = pr.get("html_url") or repo_url
-        return f"- {action.capitalize() if action else 'Updated'} PR [{title}]({url}) in {repo} · {when}"
+        return f"- {action.capitalize() if action else 'Updated'} PR [{title}]({url}) in {repo} | {when}"
     if kind == "IssuesEvent":
         action = payload.get("action")
         issue = payload.get("issue") or {}
         title = issue.get("title") or "issue"
         url = issue.get("html_url") or repo_url
-        return f"- {action.capitalize() if action else 'Updated'} issue [{title}]({url}) · {when}"
+        return f"- {action.capitalize() if action else 'Updated'} issue [{title}]({url}) | {when}"
     if kind == "CreateEvent" and payload.get("ref_type") == "repository":
-        return f"- Created [{repo}]({repo_url}) · {when}"
+        return f"- Created [{repo}]({repo_url}) | {when}"
     if kind == "ReleaseEvent":
         release = payload.get("release") or {}
         tag = release.get("tag_name") or "release"
         url = release.get("html_url") or repo_url
-        return f"- Published [{tag}]({url}) in {repo} · {when}"
+        return f"- Published [{tag}]({url}) in {repo} | {when}"
     if kind == "ForkEvent":
-        return f"- Forked [{repo}]({repo_url}) · {when}"
+        return f"- Forked [{repo}]({repo_url}) | {when}"
     if kind == "WatchEvent":
-        return f"- Starred [{repo}]({repo_url}) · {when}"
+        return f"- Starred [{repo}]({repo_url}) | {when}"
     if kind == "IssueCommentEvent":
         issue = payload.get("issue") or {}
         title = issue.get("title") or "discussion"
         url = (payload.get("comment") or {}).get("html_url") or issue.get("html_url") or repo_url
-        return f"- Commented on [{title}]({url}) · {when}"
+        return f"- Commented on [{title}]({url}) | {when}"
     return None
 
 
@@ -173,7 +173,7 @@ def medium_posts(limit: int = 4) -> list[str]:
                 date = datetime.strptime(pub[:16], "%a, %d %b %Y").strftime("%b %Y")
             except ValueError:
                 date = pub[:16]
-        suffix = f" · _{date}_" if date else ""
+        suffix = f" | _{date}_" if date else ""
         lines.append(f"- [{title}]({link}){suffix}")
     return lines or ["- No public Medium posts found."]
 
@@ -212,7 +212,7 @@ def recent_contributions(events: list[dict], limit_repos: int = 8, limit_each: i
             url = item.get("html_url") or ""
             state = "merged" if (item.get("pull_request") or {}).get("merged_at") else item.get("state")
             when = item.get("updated_at") or ""
-            add(repo, when, f"- [{title}]({url}) · {state} · {short_date(when)}")
+            add(repo, when, f"- [{title}]({url}) | {state} | {short_date(when)}")
     except urllib.error.HTTPError:
         pass
 
@@ -241,8 +241,8 @@ def recent_contributions(events: list[dict], limit_repos: int = 8, limit_each: i
         noun = "item" if len(items) == 1 else "items"
         blocks.append(
             f"<details>\n"
-            f"<summary><b><a href=\"{repo_url}\">{repo}</a></b> · "
-            f"<a href=\"{org_url}\">{org}</a> · {len(items)} {noun}</summary>\n\n"
+            f"<summary><b><a href=\"{repo_url}\">{repo}</a></b> | "
+            f"<a href=\"{org_url}\">{org}</a> | {len(items)} {noun}</summary>\n\n"
             + "\n".join(line for _, line in items)
             + "\n</details>"
         )
@@ -333,15 +333,15 @@ def write_activity_svg(path: Path) -> None:
 
 def build_identity(repos: list[dict], oss_names: list[str], now: datetime) -> str:
     active = [repo["name"] for repo in repos[:3]]
-    now_line = "  ·  ".join(active) if active else "building on-device ML systems"
-    oss_line = "  ·  ".join(oss_names[:4]) if oss_names else "pytorch/rl  ·  mlx"
+    now_line = "  |  ".join(active) if active else "building on-device ML systems"
+    oss_line = "  |  ".join(oss_names[:4]) if oss_names else "pytorch/rl  |  mlx"
     stamp = now.strftime("%Y-%m-%d %H:%M UTC")
     return (
         "```text\n"
-        f"whoami     Simeet Nayan · {USERNAME}\n"
-        "role       Software Engineer @ Wells Fargo · Specialist @ xAI\n"
+        f"whoami     Simeet Nayan | {USERNAME}\n"
+        "role       Software Engineer @ Wells Fargo | Specialist @ xAI\n"
         "base       Bengaluru, India\n"
-        "focus      open source · machine learning · ML systems\n"
+        "focus      open source | machine learning | ML systems\n"
         f"now        {now_line}\n"
         f"oss        {oss_line}\n"
         f"updated    {stamp}\n"
@@ -389,8 +389,8 @@ def main() -> None:
     text = replace_section(
         text,
         "FOOTER",
-        f'<p align="center"><i>Dashboard last refreshed: {now.strftime("%b %d, %Y %H:%M UTC")} · '
-        "stats cards and badges update on view · activity rewritten by "
+        f'<p align="center"><i>Dashboard last refreshed: {now.strftime("%b %d, %Y %H:%M UTC")} | '
+        "stats cards and badges update on view | activity rewritten by "
         "<a href=\"./scripts/update_dashboard.py\">scripts/update_dashboard.py</a></i></p>",
     )
     README.write_text(text, encoding="utf-8")
