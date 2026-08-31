@@ -70,7 +70,7 @@ base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
 oss        ml-explore/mlx  |  ml-explore/mlx-lm  |  ml-explore/mlx-swift-examples  |  ml-explore/mlx-swift
-updated    2026-08-30 21:11 UTC
+updated    2026-08-31 05:43 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -265,5 +265,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Aug 30, 2026 21:11 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Aug 31, 2026 05:43 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
