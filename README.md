@@ -69,8 +69,8 @@ role       Software Engineer @ Wells Fargo | Specialist @ xAI
 base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
-oss        ml-explore/mlx-lm  |  ml-explore/mlx  |  ml-explore/mlx-swift-examples  |  ml-explore/mlx-swift
-updated    2026-08-31 14:00 UTC
+oss        ml-explore/mlx  |  ml-explore/mlx-lm  |  ml-explore/mlx-swift-examples  |  ml-explore/mlx-swift
+updated    2026-08-31 22:54 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -130,8 +130,9 @@ Recent public PRs, issues, and commits, grouped by repo. Expands as new work lan
 
 <!--START:RECENT_PRS-->
 <details>
-<summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 4 items</summary>
+<summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 5 items</summary>
 
+- Commented on [save_safetensors: pad the header so the data section can be memory-mapped](https://github.com/ml-explore/mlx/issues/4439#issuecomment-5479678338) | Aug 31, 2026
 - Commented on [[BUG] Saving a lazily loaded file back to the same path silently corrupts it](https://github.com/ml-explore/mlx/issues/4427#issuecomment-5467622119) | Aug 30, 2026
 - [Add TypeError for 0-d mlx scalar when calling iter/list](https://github.com/ml-explore/mlx/pull/4425) | open | Aug 29, 2026
 - Commented on [[BUG] Saving a lazily loaded file back to the same path silently corrupts it](https://github.com/ml-explore/mlx/issues/4427#issuecomment-5463910989) | Aug 29, 2026
@@ -202,6 +203,7 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </div>
 
 <!--START:ACTIVITY-->
+- Commented on [save_safetensors: pad the header so the data section can be memory-mapped](https://github.com/ml-explore/mlx/issues/4439#issuecomment-5479678338) | Aug 31, 2026
 - Commented on [[BUG] Saving a lazily loaded file back to the same path silently corrupts it](https://github.com/ml-explore/mlx/issues/4427#issuecomment-5467622119) | Aug 30, 2026
 - Commented on [[BUG] Saving a lazily loaded file back to the same path silently corrupts it](https://github.com/ml-explore/mlx/issues/4427#issuecomment-5463910989) | Aug 29, 2026
 - Opened issue [[BUG]  0-d iter() / list() throws IndexError: SmallVector out of range instead of TypeError](https://github.com/ml-explore/mlx/issues/4423) | Aug 29, 2026
@@ -265,5 +267,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Aug 31, 2026 14:00 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Aug 31, 2026 22:54 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
