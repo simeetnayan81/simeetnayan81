@@ -69,8 +69,8 @@ role       Software Engineer @ Wells Fargo | Specialist @ xAI
 base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
-oss        gmberton/awesome-machine-learning-startups  |  ml-explore/mlx  |  ml-explore/mlx-lm  |  ml-explore/mlx-swift-examples
-updated    2026-09-01 11:44 UTC
+oss        ml-explore/mlx  |  gmberton/awesome-machine-learning-startups  |  ml-explore/mlx-lm  |  ml-explore/mlx-swift-examples
+updated    2026-09-01 16:43 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -140,14 +140,6 @@ Recent public PRs, issues, and commits, grouped by repo. Expands as new work lan
 </details>
 
 <details>
-<summary><b><a href="https://github.com/ml-explore/mlx-swift">ml-explore/mlx-swift</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 3 items</summary>
-
-- Commented on [[BUG]  convolve(..., mode: .same) wrong right pad for even kernels](https://github.com/ml-explore/mlx-swift/issues/466#issuecomment-5460289601) | Aug 29, 2026
-- Opened issue [[BUG]  convolve(..., mode: .same) wrong right pad for even kernels](https://github.com/ml-explore/mlx-swift/issues/466) | Aug 28, 2026
-- Commented on [Discussion: Sendable MLXArray](https://github.com/ml-explore/mlx-swift/issues/417#issuecomment-5451634802) | Aug 28, 2026
-</details>
-
-<details>
 <summary><b><a href="https://github.com/pytorch/rl">pytorch/rl</a></b> | <a href="https://github.com/pytorch">pytorch</a> | 1 item</summary>
 
 - [[Feature, Example] A3C Atari Implementation for TorchRL](https://github.com/pytorch/rl/pull/3001) | open | Aug 26, 2026
@@ -207,9 +199,6 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 - Commented on [[BUG] Saving a lazily loaded file back to the same path silently corrupts it](https://github.com/ml-explore/mlx/issues/4427#issuecomment-5467622119) | Aug 30, 2026
 - Commented on [[BUG] Saving a lazily loaded file back to the same path silently corrupts it](https://github.com/ml-explore/mlx/issues/4427#issuecomment-5463910989) | Aug 29, 2026
 - Opened issue [[BUG]  0-d iter() / list() throws IndexError: SmallVector out of range instead of TypeError](https://github.com/ml-explore/mlx/issues/4423) | Aug 29, 2026
-- Commented on [[BUG]  convolve(..., mode: .same) wrong right pad for even kernels](https://github.com/ml-explore/mlx-swift/issues/466#issuecomment-5460289601) | Aug 29, 2026
-- Opened issue [[BUG]  convolve(..., mode: .same) wrong right pad for even kernels](https://github.com/ml-explore/mlx-swift/issues/466) | Aug 28, 2026
-- Commented on [Discussion: Sendable MLXArray](https://github.com/ml-explore/mlx-swift/issues/417#issuecomment-5451634802) | Aug 28, 2026
 <!--END:ACTIVITY-->
 
 ---
@@ -267,5 +256,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Sep 01, 2026 11:44 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Sep 01, 2026 16:43 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
