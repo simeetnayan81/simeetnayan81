@@ -70,7 +70,7 @@ base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
 oss        ml-explore/mlx  |  gmberton/awesome-machine-learning-startups  |  ml-explore/mlx-lm
-updated    2026-09-02 04:41 UTC
+updated    2026-09-02 11:25 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -132,9 +132,9 @@ Recent public PRs, issues, and commits, grouped by repo. Expands as new work lan
 <details>
 <summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 5 items</summary>
 
+- [python: Make iter() throw TypeError for 0-dim array](https://github.com/ml-explore/mlx/pull/4425) | merged | Sep 02, 2026
 - Commented on [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445#issuecomment-5500751140) | Sep 01, 2026
 - Opened issue [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445) | Sep 01, 2026
-- [Add TypeError for 0-d mlx scalar when calling iter/list](https://github.com/ml-explore/mlx/pull/4425) | open | Sep 01, 2026
 - Commented on [save_safetensors: pad the header so the data section can be memory-mapped](https://github.com/ml-explore/mlx/issues/4439#issuecomment-5479678338) | Aug 31, 2026
 - Commented on [[BUG] Saving a lazily loaded file back to the same path silently corrupts it](https://github.com/ml-explore/mlx/issues/4427#issuecomment-5467622119) | Aug 30, 2026
 </details>
@@ -256,5 +256,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Sep 02, 2026 04:41 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Sep 02, 2026 11:25 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
