@@ -70,7 +70,7 @@ base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
 oss        ml-explore/mlx  |  ml-explore/mlx-examples  |  gmberton/awesome-machine-learning-startups  |  ml-explore/mlx-lm
-updated    2026-09-05 10:41 UTC
+updated    2026-09-05 15:18 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -132,11 +132,11 @@ Recent public PRs, issues, and commits, grouped by repo. Expands as new work lan
 <details>
 <summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 5 items</summary>
 
+- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552590035) | Sep 05, 2026
+- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552481528) | Sep 05, 2026
 - Commented on [einsum: Fallback to multiply-and-reduce for integer contractions](https://github.com/ml-explore/mlx/pull/4466#issuecomment-5551102087) | Sep 05, 2026
 - [python: Make iter() throw TypeError for 0-dim array](https://github.com/ml-explore/mlx/pull/4425) | merged | Sep 02, 2026
 - Commented on [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445#issuecomment-5500751140) | Sep 01, 2026
-- Opened issue [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445) | Sep 01, 2026
-- Commented on [save_safetensors: pad the header so the data section can be memory-mapped](https://github.com/ml-explore/mlx/issues/4439#issuecomment-5479678338) | Aug 31, 2026
 </details>
 
 <details>
@@ -195,6 +195,8 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </div>
 
 <!--START:ACTIVITY-->
+- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552590035) | Sep 05, 2026
+- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552481528) | Sep 05, 2026
 - Commented on [einsum: Fallback to multiply-and-reduce for integer contractions](https://github.com/ml-explore/mlx/pull/4466#issuecomment-5551102087) | Sep 05, 2026
 - Commented on [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445#issuecomment-5500751140) | Sep 01, 2026
 - Opened issue [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445) | Sep 01, 2026
@@ -256,5 +258,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Sep 05, 2026 10:41 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Sep 05, 2026 15:18 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
