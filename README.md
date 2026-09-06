@@ -70,7 +70,7 @@ base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
 oss        ml-explore/mlx  |  ml-explore/mlx-examples  |  gmberton/awesome-machine-learning-startups  |  ml-explore/mlx-lm
-updated    2026-09-06 04:46 UTC
+updated    2026-09-06 11:03 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -132,11 +132,11 @@ Recent public PRs, issues, and commits, grouped by repo. Expands as new work lan
 <details>
 <summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 5 items</summary>
 
+- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5558184128) | Sep 06, 2026
 - Commented on [Refactor: Extract set_output Function from utils.h](https://github.com/ml-explore/mlx/pull/4467#issuecomment-5553710824) | Sep 05, 2026
 - Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552590035) | Sep 05, 2026
 - Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552481528) | Sep 05, 2026
 - Commented on [einsum: Fallback to multiply-and-reduce for integer contractions](https://github.com/ml-explore/mlx/pull/4466#issuecomment-5551102087) | Sep 05, 2026
-- [python: Make iter() throw TypeError for 0-dim array](https://github.com/ml-explore/mlx/pull/4425) | merged | Sep 02, 2026
 </details>
 
 <details>
@@ -195,6 +195,7 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </div>
 
 <!--START:ACTIVITY-->
+- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5558184128) | Sep 06, 2026
 - Commented on [Refactor: Extract set_output Function from utils.h](https://github.com/ml-explore/mlx/pull/4467#issuecomment-5553710824) | Sep 05, 2026
 - Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552590035) | Sep 05, 2026
 - Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552481528) | Sep 05, 2026
@@ -259,5 +260,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Sep 06, 2026 04:46 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Sep 06, 2026 11:03 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
