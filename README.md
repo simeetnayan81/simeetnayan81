@@ -69,8 +69,8 @@ role       Software Engineer @ Wells Fargo | Specialist @ xAI
 base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
-oss        ml-explore/mlx  |  ml-explore/mlx-examples  |  gmberton/awesome-machine-learning-startups
-updated    2026-09-23 11:45 UTC
+oss        ml-explore/mlx  |  ml-explore/mlx-examples
+updated    2026-09-23 17:09 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -132,11 +132,11 @@ Recent public PRs, issues, and commits, grouped by repo. Expands as new work lan
 <details>
 <summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 5 items</summary>
 
+- [Contraction docs addition](https://github.com/ml-explore/mlx/pull/4550) | open | Sep 23, 2026
 - Commented on [Raise IndexError for out of bounds axes](https://github.com/ml-explore/mlx/pull/4484#issuecomment-5607687903) | Sep 09, 2026
 - Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5558184128) | Sep 06, 2026
 - Commented on [Refactor: Extract set_output Function from utils.h](https://github.com/ml-explore/mlx/pull/4467#issuecomment-5553710824) | Sep 05, 2026
 - Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552590035) | Sep 05, 2026
-- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552481528) | Sep 05, 2026
 </details>
 
 <details>
@@ -260,5 +260,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Sep 23, 2026 11:45 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Sep 23, 2026 17:09 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
