@@ -70,7 +70,7 @@ base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        VectorSwift  |  rlx-swift  |  ODSE
 oss        ml-explore/mlx  |  ml-explore/mlx-examples
-updated    2026-09-30 12:42 UTC
+updated    2026-09-30 22:20 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -201,7 +201,6 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 - Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5552481528) | Sep 05, 2026
 - Commented on [einsum: Fallback to multiply-and-reduce for integer contractions](https://github.com/ml-explore/mlx/pull/4466#issuecomment-5551102087) | Sep 05, 2026
 - Commented on [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445#issuecomment-5500751140) | Sep 01, 2026
-- Opened issue [[BUG]: bytes(array) dumps the wrong memory when the array is not packed](https://github.com/ml-explore/mlx/issues/4445) | Sep 01, 2026
 <!--END:ACTIVITY-->
 
 ---
@@ -259,5 +258,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Sep 30, 2026 12:42 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Sep 30, 2026 22:20 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
