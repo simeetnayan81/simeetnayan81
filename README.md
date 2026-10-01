@@ -68,9 +68,9 @@ whoami     Simeet Nayan | simeetnayan81
 role       Software Engineer @ Wells Fargo | Specialist @ xAI
 base       Bengaluru, India
 focus      open source | machine learning | ML systems
-now        VectorSwift  |  rlx-swift  |  ODSE
+now        noface  |  VectorSwift  |  rlx-swift
 oss        ml-explore/mlx  |  ml-explore/mlx-examples
-updated    2026-10-01 13:26 UTC
+updated    2026-10-01 22:44 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -109,12 +109,12 @@ Live cards. Click through for the code.
 <summary><b>Recently active</b></summary>
 
 <!--START:RECENT_REPOS-->
+- **[noface](https://github.com/simeetnayan81/noface)** - Anonymize every face in a video except the people you want to keep visible | _Python | updated Oct 01, 2026_
 - **[VectorSwift](https://github.com/simeetnayan81/VectorSwift)** - Vector database written in Swift, built to run both on personal devices and on Swift server deployments | _Swift | 2★ | updated Aug 13, 2026_
 - **[rlx-swift](https://github.com/simeetnayan81/rlx-swift)** - High-performance reinforcement learning environment and data-collection API built in idiomatic Swift. By leveraging MLXArray, rlx-swift delivers seamless, hardware-accelerated training loops optimized directly for Apple Silicon | _Swift | 2★ | updated Jul 10, 2026_
 - **[ODSE](https://github.com/simeetnayan81/ODSE)** - Open Data Science Environment (ODSE): A standardized environment for AI agents to master end to end data science pipelines | _Python | 2★ | updated Apr 25, 2026_
 - **[dqn-breakout](https://github.com/simeetnayan81/dqn-breakout)** - Implementation of Deep Q Network to play Atari Breakout | _Jupyter Notebook | 1★ | updated Apr 23, 2025_
 - **[finbot](https://github.com/simeetnayan81/finbot)** - Finance News Aggregator using Agentic AI (Gemini + AutoGen) | _Python | updated Apr 10, 2025_
-- **[RL-Algorithms](https://github.com/simeetnayan81/RL-Algorithms)** - Reinforcement Learning Algorithms Implementation | _Jupyter Notebook | updated Apr 06, 2025_
 <!--END:RECENT_REPOS-->
 
 </details>
@@ -258,5 +258,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Oct 01, 2026 13:26 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Oct 01, 2026 22:44 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
