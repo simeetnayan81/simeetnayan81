@@ -69,8 +69,8 @@ role       Software Engineer @ Wells Fargo | Specialist @ xAI
 base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        noface  |  VectorSwift  |  rlx-swift
-oss        ml-explore/mlx  |  ml-explore/mlx-examples
-updated    2026-10-03 21:23 UTC
+oss        ml-explore/mlx
+updated    2026-10-04 06:00 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -257,5 +257,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Oct 03, 2026 21:23 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Oct 04, 2026 06:00 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
