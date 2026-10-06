@@ -70,7 +70,7 @@ base       Bengaluru, India
 focus      open source | machine learning | ML systems
 now        noface  |  VectorSwift  |  rlx-swift
 oss        ml-explore/mlx
-updated    2026-10-06 06:28 UTC
+updated    2026-10-06 18:26 UTC
 ```
 <!--END:IDENTITY-->
 
@@ -130,10 +130,9 @@ Recent public PRs, issues, and commits, grouped by repo. Expands as new work lan
 
 <!--START:RECENT_PRS-->
 <details>
-<summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 3 items</summary>
+<summary><b><a href="https://github.com/ml-explore/mlx">ml-explore/mlx</a></b> | <a href="https://github.com/ml-explore">ml-explore</a> | 2 items</summary>
 
 - [docs: contraction dtype requirements in matmul/einsum](https://github.com/ml-explore/mlx/pull/4550) | merged | Sep 30, 2026
-- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5558184128) | Sep 06, 2026
 - [python: Make iter() throw TypeError for 0-dim array](https://github.com/ml-explore/mlx/pull/4425) | merged | Sep 02, 2026
 </details>
 
@@ -193,7 +192,7 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </div>
 
 <!--START:ACTIVITY-->
-- Commented on [Einsum selects unsupported matmul for integer contractions](https://github.com/ml-explore/mlx/issues/4463#issuecomment-5558184128) | Sep 06, 2026
+- No recent public events.
 <!--END:ACTIVITY-->
 
 ---
@@ -251,5 +250,5 @@ More on [Medium](https://medium.com/@simeetnayan81) | [site](https://simeetnayan
 </blockquote>
 
 <!--START:FOOTER-->
-<p align="center"><i>Dashboard last refreshed: Oct 06, 2026 06:28 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
+<p align="center"><i>Dashboard last refreshed: Oct 06, 2026 18:26 UTC | stats cards and badges update on view | activity rewritten by <a href="./scripts/update_dashboard.py">scripts/update_dashboard.py</a></i></p>
 <!--END:FOOTER-->
